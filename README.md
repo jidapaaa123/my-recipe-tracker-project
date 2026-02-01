@@ -5,7 +5,8 @@ MAUI x Blazor x API Re-do and Revamp of Recipe Tracker from Intro to Web Dev
 - TDD
 - API
 - MAUI, Blazor
-- I personally don't enjoy doing UI, but I'll also get to do that here because it's a one-woman army  
+- I personally don't enjoy doing UI, but I'll also get to do that here because it's a one-woman army
+- Docker, Kubernetes and other mystical things I'm learning in Operations this semester...  
 
 # Features?  
 - recipe tracker (same features from old one)
@@ -16,6 +17,11 @@ MAUI x Blazor x API Re-do and Revamp of Recipe Tracker from Intro to Web Dev
 - Experimental Recipes --> Pending Recipes --> Recipe Collection
 - External API Recipe --> Pending Recipes
 - Nutrition (optional per recipe-- but if they track 1 ingredient, they must track all, type of thing): user can name their ingredient whatever (hopefully they don't link peach to cream cheese, but hey), and will "link" to a food provided by the Nutrition API that they feel represents it the best. Logic must support conversions here  
+
+# External API's  
+- Edamam, for importing recipes : https://www.edamam.com/
+- FatSecret, for nutrition info: https://platform.fatsecret.com/
+
 
 OLD PORT:  
 Page 1: Pantry - Ingredients list: Here will be rendered cards of all ingredients the user has entered. The purpose is not what they currently have per se, but more so common ingredients they may refer to often. They will then be able to drag-and-drop those ingredients into the basket (or cart?). Those things in the basket actually represent what they do currently have. The point is to avoid having to re-type "eggs", "milk", "chicken", "paprika", "water" over and over, as they are common ingredients most households have almost all the time. The user may continue to remove things out of the basket via also drag-n-drop. User may delete a pantry ingredient. I'm also thinking of a feature where new ingredients introduced in recipes automatically show up in the pantry, but this is tentative.
