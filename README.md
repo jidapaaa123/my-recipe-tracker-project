@@ -13,7 +13,8 @@ ASP.NET Core Web API & Postgres DB in Docker Re-do and Revamp of Recipe Tracker 
 # Features?  
 - recipe tracker (same features from old one)
 - nutrition tracking (you know what would be cool? If the user can generate their own ingredients-- as in, register their ingredient & info to the app. The app can generate a code for them to write/sticker on it for easier scan later. The same concept of barcode scan, but it's customizable now... Or I guess just the "ID number"? Since it'll be a primary key, it shouldn't dupe. But it can get pretty big if we scaled the user base. Or PK per user? how does that work;;)    
-- experimenting tab: different recipes for the SAME "dish." To aid experimentation with recipes until the user decides to confirm on 1. Ease of photos & captions to help with the experimentation process.  
+- experimenting tab: different recipes for the SAME "dish." To aid experimentation with recipes until the user decides to confirm on 1. Ease of photos & captions to help with the experimentation process.
+- AI integration in feature: suggestions of dishes in the home page based on what recipes the user has already 'favorited'? (ingredients, descriptions, nutrition info, etc.)
 
 # SUMMARY  
 - Experimental Recipes --> Pending Recipes --> Recipe Collection
